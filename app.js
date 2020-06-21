@@ -5,7 +5,7 @@ function getMessage() {
     if (status === "çevrimiçi") {
         event = new UIEvent("input", { "bubbles": true, "cancelable": true })
 
-        messageBox.innerHTML = "deneme"
+        messageBox.innerHTML = "deneme "
 
         messageBox.dispatchEvent(event);
 
