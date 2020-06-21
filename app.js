@@ -5,7 +5,7 @@ function getMessage() {
     if (status === "çevrimiçi") {
         event = new UIEvent("input", { "bubbles": true, "cancelable": true })
 
-        messageBox.innerHTML = "Aşkım balum çiçeğim"
+        messageBox.innerHTML = "deneme"
 
         messageBox.dispatchEvent(event);
 
@@ -13,3 +13,6 @@ function getMessage() {
     }
 
 }
+var myVar = setInterval(getMessage, 2000)
+
+//clearInterval(myVar)
